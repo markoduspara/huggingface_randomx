@@ -1,5 +1,7 @@
 # syntax=docker/dockerfile:1.4
-FROM --platform=$BUILDPLATFORM python:3.10-alpine AS builder
+#FROM --platform=$BUILDPLATFORM python:3.10-alpine AS builder
+FROM --platform=$BUILDPLATFORM python:3.10.5-bullseye AS builder
+
 
 #FROM alpine:latest
 RUN apk update
