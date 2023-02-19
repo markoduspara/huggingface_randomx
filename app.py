@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    #rez=pyrx.get_rx_hash('1','1','1')
+    rez=pyrx.get_rx_hash('1','1','1')
 	return "Hello World!"
 
 if __name__ == '__main__':
