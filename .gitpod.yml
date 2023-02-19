@@ -1,5 +1,5 @@
 image:
   file: .gitpod.Dockerfile
-tasks:
-  - init: pip install -r requirements.txt
-    command: python3 app.py
+#tasks:
+#  - init: pip install -r requirements.txt
+#    command: python3 app.py
