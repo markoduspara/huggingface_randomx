@@ -20,6 +20,8 @@ import struct
 import json
 import os
 import time
+import sys
+sys.dont_write_bytecode = True
 
 nicehash = False
 
